@@ -3714,38 +3714,40 @@ body.exporting-2k .slide-timer-badge {
   line-height: 1.35 !important;
 }
 
-/* Slide 15 & 16 anti-overflow guard */
-#slide-15 .split-2x2-grid,
-#slide-16 .split-2x2-grid {
+/* Universal anti-overflow guard for all split-2x2-grid slides */
+.split-2x2-grid {
   gap: 12px !important;
 }
 
-#slide-15 .split-grid-card,
-#slide-16 .split-grid-card {
-  padding: 12px 18px !important;
-  gap: 6px !important;
-}
-
-#slide-15 .split-grid-header h4,
-#slide-16 .split-grid-header h4 {
-  font-size: 25px !important;
-}
-
-#slide-15 .split-grid-bullets,
-#slide-16 .split-grid-bullets {
+.split-2x2-grid .split-grid-card {
+  padding: 10px 16px !important;
   gap: 5px !important;
 }
 
-#slide-15 .split-grid-bullets li,
-#slide-16 .split-grid-bullets li {
-  font-size: 24px !important;
-  line-height: 1.32 !important;
-  padding-left: 22px !important;
+.split-2x2-grid .split-grid-header h4 {
+  font-size: 25px !important;
 }
 
-#slide-15 .slide-photo-card,
-#slide-16 .slide-photo-card {
+.split-2x2-grid .split-grid-bullets {
+  gap: 5px !important;
+}
+
+.split-2x2-grid .split-grid-bullets li {
+  font-size: 23px !important;
+  line-height: 1.3 !important;
+  padding-left: 20px !important;
+}
+
+.slide-split-grid .slide-photo-card {
   height: 100% !important;
   max-height: 100% !important;
 }
+
+/* Slide 3 exact fit guard */
+#slide-3 .definition-box p { font-size: 26px !important; line-height: 1.4 !important; margin: 8px 0 !important; }
+#slide-3 .definition-box h3 { margin-bottom: 6px !important; }
+#slide-3 .def-summary-pill { padding: 10px 16px !important; font-size: 20px !important; }
+#slide-3 .characteristics-stack { gap: 10px !important; }
+#slide-3 .char-card { padding: 10px 16px !important; gap: 4px !important; }
+#slide-3 .char-card p { font-size: 22px !important; line-height: 1.35 !important; }
 
