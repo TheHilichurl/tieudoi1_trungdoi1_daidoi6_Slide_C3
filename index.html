@@ -1,0 +1,2344 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bộ Slide 01: Hiểu Biết Chung Về Quân Binh Chủng QĐNDVN | ĐH Đại Nam</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20261004_01">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Modern Headings) & Be Vietnam Pro (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+  <!-- External CDN Libraries -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- External Stylesheet from slide_new -->
+  <link rel="stylesheet" href="assets/styles.css?v=20261004_03">
+</head>
+<body>
+
+  <!-- Top Progress Indicator -->
+  <div id="top-progress-bar"></div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-notification">
+    <i data-lucide="check-circle" style="color: #10B981; width: 24px; height: 24px; flex-shrink: 0;"></i>
+    <span id="toast-msg">Thông báo hệ thống</span>
+  </div>
+
+  <!-- Viewport Shell (Auto-Scaled 16:9 1920x1080) -->
+  <div id="viewport">
+    <div id="slide-stage">
+
+      <!-- ====================================================================
+           SLIDE 01: CHUYÊN ĐỀ QUÂN SỰ ĐẶC BIỆT
+           ==================================================================== -->
+      <section class="slide theme-dark active" id="slide-1" data-slide-index="1">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body" style="background: radial-gradient(circle at 75% 35%, #0B254E 0%, #050F22 100%);">
+          <div class="slide-1-container">
+            <div class="hero-content">
+              <div class="hero-badge-tag">
+                <i data-lucide="flame" style="width: 18px; height: 18px;"></i>
+                CHUYÊN ĐỀ QUÂN SỰ ĐẶC BIỆT
+              </div>
+
+              <h1 class="hero-main-title">
+                HIỂU BIẾT CHUNG VỀ CÁC QUÂN, BINH CHỦNG<br><span class="highlight-orange">TRONG QUÂN ĐỘI NHÂN DÂN VIỆT NAM</span>
+              </h1>
+
+              <p class="hero-sub-text">
+                Nghiên cứu cơ cấu tổ chức biên chế, chức năng nhiệm vụ, trang bị vũ khí kỹ thuật và nghệ thuật tổ chức hiệp đồng tác chiến quân binh chủng hợp thành hiện đại.
+              </p>
+
+              <div class="hero-meta-grid">
+                
+                <div class="hero-meta-card">
+                  <div class="meta-card-icon">
+                    <i data-lucide="users" style="width: 26px; height: 26px;"></i>
+                  </div>
+                  <div class="meta-card-content">
+                    <h5>Đơn vị biên soạn</h5>
+                    <p>Tiểu đội 1 • Trung đội 1</p>
+                  </div>
+                </div>
+                <div class="hero-meta-card">
+                  <div class="meta-card-icon">
+                    <i data-lucide="award" style="width: 26px; height: 26px;"></i>
+                  </div>
+                  <div class="meta-card-content">
+                    <h5>Biên chế & Học phần</h5>
+                    <p>Đại đội 6 • Môn: GDQP-AN</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="hero-cta-btn" id="btn-start-presentation" onclick="goToSlide(2)">
+                <span>Bắt đầu Thuyết trình</span>
+                <i data-lucide="arrow-right" style="width: 24px; height: 24px;"></i>
+              </button>
+            </div>
+
+            <!-- Hero Visual Graphic Card -->
+            <div class="hero-visual-card">
+              <img src="assets/vn-military-forces.jpg" alt="Biên Niên Sử Hào Hùng & Sức Mạnh Hiện Đại" class="hero-visual-img" style="object-position: center 30%;">
+              <div class="hero-visual-overlay">
+                <div class="visual-overlay-badge">
+                  <i data-lucide="shield" style="width: 16px; height: 16px;"></i>
+                  QUÂN ĐỘI NHÂN DÂN VIỆT NAM ANH HÙNG
+                </div>
+                <h3 style="color: #FFFFFF; font-size: 26px; font-weight: 900; line-height: 1.3;">
+                  Biên Niên Sử Hào Hùng & Sức Mạnh Hiện Đại
+                </h3>
+                <p style="color: #CBD5E1; font-size: 18px; margin-top: 6px; line-height: 1.45;">
+                  Quân đội từ nhân dân mà ra, vì nhân dân mà chiến đấu — Lực lượng nòng cốt bảo vệ vững chắc non sông gấm vóc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">01</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 02: Khung Chương Trình Nghiên Cứu Chuẩn Hóa
+           ==================================================================== -->
+      <section class="slide" id="slide-2" data-slide-index="2">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">TỔNG QUAN HỌC PHẦN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="compass" style="width: 18px; height: 18px;"></i>Khung Chương Trình Nghiên Cứu Chuẩn Hóa</span>
+            <h2 class="slide-title">CẤU TRÚC 5 KHỐI NỘI DUNG TỔ CHỨC & TÁC CHIẾN</h2>
+            <p class="slide-subtitle">Hệ thống bài giảng 20 slide bao quát từ nền tảng thể chế đến các lực lượng quân binh chủng và hiệp đồng thực tế</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+              
+              <div class="split-grid-card" style="border-left: 6px solid #3B82F6; padding: 12px 18px; margin-bottom: 10px; background: #FFF; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 30, 60, 0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary);">1. Cơ Sở & Lịch Sử</h4>
+                  <span class="pillar-tag" style="background: #3B82F622; color: #3B82F6; font-size: 14px; font-weight: 800; padding: 3px 12px; border-radius: 999px;">Nền Tảng</span>
+                </div>
+                <p style="font-size: 21px; line-height: 1.4; color: #475569; margin: 0;">Truyền thống quân sự dân tộc, quá trình thành lập và 3 chức năng chiến lược của QĐND Việt Nam.</p>
+              </div>
+              <div class="split-grid-card" style="border-left: 6px solid #10B981; padding: 12px 18px; margin-bottom: 10px; background: #FFF; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 30, 60, 0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary);">2. Cơ Cấu Tổ Chức</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-size: 14px; font-weight: 800; padding: 3px 12px; border-radius: 999px;">Thể Chế</span>
+                </div>
+                <p style="font-size: 21px; line-height: 1.4; color: #475569; margin: 0;">Chỉ huy chiến lược Bộ Quốc phòng, 7 Quân khu, Quân đoàn cơ động và cải cách Thông tư 83/2025.</p>
+              </div>
+              <div class="split-grid-card" style="border-left: 6px solid #0284C7; padding: 12px 18px; margin-bottom: 10px; background: #FFF; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 30, 60, 0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary);">3. Quân Chủng Chiến Đấu</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-size: 14px; font-weight: 800; padding: 3px 12px; border-radius: 999px;">Nòng Cốt</span>
+                </div>
+                <p style="font-size: 21px; line-height: 1.4; color: #475569; margin: 0;">Hải quân bảo vệ chủ quyền biển đảo thềm lục địa & Phòng không - Không quân canh giữ bầu trời.</p>
+              </div>
+              <div class="split-grid-card" style="border-left: 6px solid #EA580C; padding: 12px 18px; margin-bottom: 10px; background: #FFF; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 30, 60, 0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary);">4. Các Binh Chủng</h4>
+                  <span class="pillar-tag" style="background: #EA580C22; color: #EA580C; font-size: 14px; font-weight: 800; padding: 3px 12px; border-radius: 999px;">Hỏa Lực</span>
+                </div>
+                <p style="font-size: 21px; line-height: 1.4; color: #475569; margin: 0;">Pháo binh hỏa lực, Tăng thiết giáp đột kích, Đặc công tinh nhuệ, Công binh, Hóa học, Tác chiến mạng.</p>
+              </div>
+              <div class="split-grid-card" style="border-left: 6px solid #8B5CF6; padding: 12px 18px; margin-bottom: 10px; background: #FFF; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 30, 60, 0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary);">5. Hiệp Đồng Tác Chiến</h4>
+                  <span class="pillar-tag" style="background: #8B5CF622; color: #8B5CF6; font-size: 14px; font-weight: 800; padding: 3px 12px; border-radius: 999px;">Thực Chiến</span>
+                </div>
+                <p style="font-size: 21px; line-height: 1.4; color: #475569; margin: 0;">Nguyên tắc hợp thành, 3 phương pháp tổ chức hiệp đồng tham mưu và xử lý sự cố đứt gãy thông tin.</p>
+              </div>
+            </div>
+
+            <!-- Right: Beautiful Visual Photo Card -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-hoi-truong-dien-hong.jpg" alt="Hội Trường Diên Hồng & Thế Trận Toàn Dân" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> QUỐC PHÒNG TOÀN DÂN
+                </div>
+                <h3 class="photo-overlay-title">Hội Trường Diên Hồng & Thế Trận Toàn Dân</h3>
+                <p class="photo-overlay-desc">Sức mạnh bảo vệ Tổ quốc bắt nguồn từ sự kết hợp hài hòa giữa lực lượng vũ trang nhân dân và khối đại đoàn kết toàn dân tộc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">02</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 03: Cội nguồn bản lĩnh quân sự Đại Việt
+           ==================================================================== -->
+      <section class="slide" id="slide-3" data-slide-index="3">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN I: NỀN TẢNG LỊCH SỬ & TRUYỀN THỐNG</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category">
+              <i data-lucide="compass" style="width: 18px; height: 18px;"></i>
+              Cội nguồn bản lĩnh quân sự Đại Việt
+            </span>
+            <h2 class="slide-title">KẾ THỪA TRUYỀN THỐNG ĐÁNH GIẶC CỦA ÔNG CHA TA</h2>
+            <p class="slide-subtitle">Quy luật sinh tồn tất yếu dựng nước đi đôi với giữ nước và tư tưởng lấy nhân nghĩa thắng hung tàn</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- Left: Definition Box with Image & Quote -->
+            <div class="definition-box" style="padding: 24px 28px;">
+              <div>
+                <div class="def-badge" style="font-size: 20px; padding: 8px 22px; margin-bottom: 14px;">
+                  <i data-lucide="book-open" style="width: 22px; height: 22px;"></i>
+                  Quy luật sinh tồn tất yếu
+                </div>
+                <p class="def-quote-text" style="font-size: 30px; line-height: 1.4; margin-bottom: 20px;">
+                  "<strong>Dựng nước luôn đi đôi với giữ nước</strong> — Lấy nhỏ thắng lớn, <strong>lấy ít địch nhiều, lấy đoản binh chế trường trận</strong> là bản sắc độc đáo của quân sự Việt Nam."
+                </p>
+
+                <!-- Context Photo -->
+                <div class="def-img-preview" style="padding: 18px 22px; gap: 24px; margin-bottom: 18px;">
+                  <img src="assets/vn-hung-temple.jpg" alt="Đền Hùng Cội Nguồn Dân Tộc" class="def-img-thumb" style="width: 380px; height: 240px; border-radius: 14px; box-shadow: 0 12px 30px rgba(0, 59, 122, 0.22); border: 2.5px solid rgba(0, 59, 122, 0.25); object-fit: cover;">
+                  <div class="def-img-caption" style="gap: 10px; flex: 1;">
+                    <h5 style="font-size: 28px; font-weight: 900; color: var(--color-secondary); line-height: 1.25;">Đền Hùng Cội Nguồn Dân Tộc</h5>
+                    <p style="font-size: 23px; line-height: 1.45; color: #334155; font-weight: 500;">"Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước" — Lời dạy bất hủ của Chủ tịch Hồ Chí Minh.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="def-summary-pill" style="font-size: 23px; padding: 12px 22px; gap: 14px;">
+                <i data-lucide="zap" style="color: var(--color-primary); width: 26px; height: 26px; flex-shrink: 0;"></i>
+                <span>Bản sắc: Kết hợp chiến tranh nhân dân toàn diện với tư tưởng chủ động tiến công dẹp loạn từ sớm, từ xa.</span>
+              </div>
+            </div>
+
+            <!-- Right: Characteristics Stack -->
+            <div class="characteristics-stack">
+              
+              <div class="char-card" style="padding: 18px 24px; gap: 20px;">
+                <div class="char-icon-wrap" style="width: 62px; height: 62px; border-radius: 16px;">
+                  <i data-lucide="map-pin" style="width: 34px; height: 34px;"></i>
+                </div>
+                <div class="char-info">
+                  <h4 style="font-size: 26px; margin-bottom: 6px;">1. Địa Chiến Lược Ngã Tư Đường</h4>
+                  <p style="font-size: 23px; line-height: 1.4;">Cửa ngõ châu Á - Thái Bình Dương, luôn là mục tiêu nhòm ngó của các thế lực bành trướng xâm lược.</p>
+                </div>
+              </div>
+              <div class="char-card" style="padding: 18px 24px; gap: 20px;">
+                <div class="char-icon-wrap" style="width: 62px; height: 62px; border-radius: 16px;">
+                  <i data-lucide="shield" style="width: 34px; height: 34px;"></i>
+                </div>
+                <div class="char-info">
+                  <h4 style="font-size: 26px; margin-bottom: 6px;">2. Toàn Dân Đánh Giặc</h4>
+                  <p style="font-size: 23px; line-height: 1.4;">Thế trận lòng dân sâu rộng, 'trăm họ là binh', quân triều đình hòa hợp gắn kết với dân binh bản địa.</p>
+                </div>
+              </div>
+              <div class="char-card" style="padding: 18px 24px; gap: 20px;">
+                <div class="char-icon-wrap" style="width: 62px; height: 62px; border-radius: 16px;">
+                  <i data-lucide="zap" style="width: 34px; height: 34px;"></i>
+                </div>
+                <div class="char-info">
+                  <h4 style="font-size: 26px; margin-bottom: 6px;">3. Lấy Đoản Binh Chế Trường Trận</h4>
+                  <p style="font-size: 23px; line-height: 1.4;">Dùng vũ khí cơ động gọn nhẹ, đánh hiểm luồn sâu triệt hạ sở chỉ huy và tiêu hao đoàn xe kỵ binh giặc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">03</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 04: 80 Năm Xây Dựng, Chiến Đấu & Trưởng Thành
+           ==================================================================== -->
+      <section class="slide" id="slide-4" data-slide-index="4">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN I: MỐC SON LỊCH SỬ CHÓI LỌI</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>80 Năm Xây Dựng, Chiến Đấu & Trưởng Thành</span>
+            <h2 class="slide-title">TỪ 34 CHIẾN SĨ BAN ĐẦU ĐẾN QUÂN ĐỘI CHÍNH QUY HIỆN ĐẠI</h2>
+            <p class="slide-subtitle">Chặng đường oanh liệt đánh bại các đạo quân viễn chinh sừng sỏ và bảo vệ trọn vẹn bờ cõi</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-ba-dinh.jpg" alt="Quảng Trường Ba Đình Lịch Sử" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> BIỂU TƯỢNG ĐỘC LẬP
+                </div>
+                <h3 class="photo-overlay-title">Quảng Trường Ba Đình Lịch Sử</h3>
+                <p class="photo-overlay-desc">Nơi khai sinh nước Việt Nam Dân chủ Cộng hòa, bảo chứng cho ý chí sắt đá không có gì quý hơn độc lập tự do.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. 22/12/1944: Đội VNTTGPQ</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Khởi Nguồn</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>34 chiến sĩ mang lý tưởng cách mạng</li><li>Đồng chí Võ Nguyên Giáp chỉ huy</li><li>Chiến công vang dội Phai Khắt - Nà Ngần</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. 1954: Điện Biên Phủ Chấn Động</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Đỉnh Cao</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Chiến dịch lịch sử 56 ngày đêm</li><li>Bắn rơi máy bay, tiêu diệt cứ điểm</li><li>Buộc Pháp ký Hiệp định Genève</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. 1972-1975: Đại Thắng Mùa Xuân</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Thống Nhất</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Bắn rơi pháo đài bay B-52 Hà Nội</li><li>Thần tốc tiến công mùa Xuân 1975</li><li>Thu non sông trọn về một mối</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Kỷ Nguyên Mới: Tinh Gọn Hiện Đại</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Hiện Đại Hóa</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Mô hình tổ chức tinh - gọn - mạnh</li><li>Làm chủ vũ khí trang bị khí tài mới</li><li>Bảo vệ chủ quyền không gian mạng</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">04</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 05: Ba Chức Năng Bất Khả Phân Ly Của QĐND
+           ==================================================================== -->
+      <section class="slide" id="slide-5" data-slide-index="5">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN I: BẢN CHẤT GIAI CẤP & NHIỆM VỤ</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Ba Chức Năng Bất Khả Phân Ly Của QĐND</span>
+            <h2 class="slide-title">BA CHỨC NĂNG CƠ BẢN CỦA QUÂN ĐỘI NHÂN DÂN VIỆT NAM</h2>
+            <p class="slide-subtitle">Quân đội của dân, do dân, vì dân; mang bản chất cách mạng của giai cấp công nhân và truyền thống dân tộc</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Đội Quân Chiến Đấu</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Chức Năng Số 1</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Huấn luyện SSCĐ 24/7 toàn diện</li><li>Quản lý chặt chẽ vùng trời, biển, mạng</li><li>Đánh bại mọi âm mưu diễn biến hòa bình</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Đội Quân Công Tác</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Dân Vận Đi Đầu</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tuyên truyền đường lối quân sự của Đảng</li><li>Ứng cứu bão lũ, khắc phục sự cố thiên tai</li><li>Xây dựng thế trận lòng dân kiên cố</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Đội Quân Lao Động Sản Xuất</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Kinh Tế Quốc Phòng</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Xây dựng khu kinh tế biển đảo, biên giới</li><li>Nghiên cứu chế tạo công nghệ quân sự</li><li>Góp phần tăng cường tiềm lực quốc gia</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Mối Quan Hệ Hữu Cơ</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Sức Mạnh Tổng Hợp</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Chiến đấu giỏi để bảo vệ sản xuất</li><li>Lao động tốt để nuôi dưỡng lực lượng</li><li>Dân vận khéo để có thế trận vững chắc</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-quoc-phong-toan-dan.jpg" alt="Bộ Đội Cụ Hồ Trong Lòng Nhân Dân" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> GẮN BÓ MÁU THỊT
+                </div>
+                <h3 class="photo-overlay-title">Bộ Đội Cụ Hồ Trong Lòng Nhân Dân</h3>
+                <p class="photo-overlay-desc">Hình ảnh người chiến sĩ Quân đội nhân dân luôn là điểm tựa vững chắc nhất của nhân dân trong gian khó, bão lũ và hiểm nguy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">05</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 06: Cơ Quan Chỉ Huy Tối Cao Toàn Quân
+           ==================================================================== -->
+      <section class="slide" id="slide-6" data-slide-index="6">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN II: CƠ CẤU TỔ CHỨC CHIẾN LƯỢC</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Cơ Quan Chỉ Huy Tối Cao Toàn Quân</span>
+            <h2 class="slide-title">CƠ CẤU QUẢN TRỊ CẤP CHIẾN LƯỢC BỘ QUỐC PHÒNG</h2>
+            <p class="slide-subtitle">Hệ thống chỉ huy tham mưu đầu não dưới sự lãnh đạo tuyệt đối, trực tiếp về mọi mặt của Đảng</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-hoi-nghi-quoc-gia.jpg" alt="Bộ Tổng Tham Mưu & Các Tổng Cục" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> ĐẦU NÃO CHỈ HUY
+                </div>
+                <h3 class="photo-overlay-title">Bộ Tổng Tham Mưu & Các Tổng Cục</h3>
+                <p class="photo-overlay-desc">Hệ thống tham mưu cơ mật hoạch định thế trận quân sự quốc gia, duy trì khả năng chỉ huy tác chiến thông suốt thời bình và thời chiến.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Bộ Tổng Tham Mưu</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Tham Mưu Đầu Não</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tổ chức lực lượng và bố trí tác chiến</li><li>Huấn luyện sẵn sàng chiến đấu toàn quân</li><li>Chỉ huy hiệp đồng các quân binh chủng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Tổng Cục Chính Trị</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Linh Hồn Quân Đội</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Xây dựng bản lĩnh chính trị vững vàng</li><li>Bảo vệ nền tảng tư tưởng của Đảng</li><li>Bảo đảm quân đội tuyệt đối trung thành</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Tổng Cục Hậu Cần - Kỹ Thuật</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Bảo Đảm Sức Mạnh</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Bảo đảm cơ số đạn dược, nhiên liệu</li><li>Bảo quản bảo dưỡng vũ khí hiện đại</li><li>Chăm sóc quân y và đời sống bộ đội</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Tổng Cục Tình Báo (Tổng cục II)</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Mắt Thần Chiến Lược</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Trinh sát chiến lược phát hiện từ sớm</li><li>Dự báo tình huống chiến tranh bất ngờ</li><li>Cung cấp tin tức tình báo đa môi trường</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">06</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 07: Cải Cách Tổ Chức 2025 Theo Thông Tư 83/2025
+           ==================================================================== -->
+      <section class="slide" id="slide-7" data-slide-index="7">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN II: THẾ TRẬN TÁC CHIẾN ĐỊA BÀN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Cải Cách Tổ Chức 2025 Theo Thông Tư 83/2025</span>
+            <h2 class="slide-title">TỔ CHỨC 7 QUÂN KHU, QUÂN ĐOÀN CƠ ĐỘNG & ĐỊA PHƯƠNG</h2>
+            <p class="slide-subtitle">Xây dựng khu vực phòng thủ liên hoàn, vững chắc gắn với mô hình quân đoàn cơ động tác chiến thần tốc</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Bảy Quân Khu & BTL Thủ Đô</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Địa Bàn Chiến Lược</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Chỉ huy quân sự địa phương trên địa bàn</li><li>Xây dựng thế trận chiến tranh nhân dân</li><li>Kết hợp kinh tế với củng cố quốc phòng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Quân Đoàn Tác Chiến Cơ Động</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Quả Đấm Thép</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Trang bị hỏa lực mạnh, cơ động cao</li><li>Đánh tiêu diệt cụm quân lớn đối phương</li><li>Sẵn sàng tác chiến trên mọi hướng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Cải Cách Thông Tư 83/2025</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Tinh Gọn Bộ Máy</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Giảm bớt tầng nấc trung gian huyện</li><li>Tăng cường trực tiếp về cấp cơ sở</li><li>Tiết kiệm ngân sách, tăng sức chiến đấu</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Ban CH Phòng Thủ Khu Vực</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Mô Hình Mới</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Chỉ huy cụm tác chiến thống nhất</li><li>Tận dụng tối đa địa hình phòng thủ</li><li>Phản ứng nhanh với các tình huống</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-khu-vuc-phong-thu.jpg" alt="Thế Trận Phòng Thủ Vững Chắc Địa Bàn" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> KHU VỰC PHÒNG THỦ
+                </div>
+                <h3 class="photo-overlay-title">Thế Trận Phòng Thủ Vững Chắc Địa Bàn</h3>
+                <p class="photo-overlay-desc">Mỗi quân khu là một hướng chiến lược, mỗi tỉnh thành là một khu vực phòng thủ kiên cố 'làng giữ làng, xã giữ xã, huyện giữ huyện'.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">07</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 08: Lực Lượng Nòng Cốt Bảo Vệ Biển Đảo
+           ==================================================================== -->
+      <section class="slide" id="slide-8" data-slide-index="8">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN III: QUÂN CHỦNG TIẾN THẲNG HIỆN ĐẠI</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Lực Lượng Nòng Cốt Bảo Vệ Biển Đảo</span>
+            <h2 class="slide-title">QUÂN CHỦNG HẢI QUÂN: QUẢN LÝ 5 VÙNG BIỂN TỔ QUỐC</h2>
+            <p class="slide-subtitle">5 Binh chủng chuyên ngành hiệp đồng tác chiến mặt nước, lòng biển, trên không và bờ đảo</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-gepard-ship.jpg" alt="Chiến Hạm Gepard 3.9 & Tàu Ngầm Kilo" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> TIẾN THẲNG HIỆN ĐẠI
+                </div>
+                <h3 class="photo-overlay-title">Chiến Hạm Gepard 3.9 & Tàu Ngầm Kilo</h3>
+                <p class="photo-overlay-desc">Hải quân nhân dân Việt Nam làm chủ các phương tiện tác chiến ngầm và mặt nước tối tân, bảo vệ thềm lục địa và hai quần đảo Hoàng Sa, Trường Sa.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>1. 5 Vùng Hải Quân</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Phạm Vi Kiểm Soát</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Vùng 1: Vịnh Bắc Bộ và ven biển phía Bắc</li><li>Vùng 2: Vùng biển phía Nam và DK1</li><li>Vùng 3, 4, 5: Miền Trung, Trường Sa, Tây Nam</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Tàu Mặt Nước & Kilo</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Hỏa Lực Tối Tân</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Chiến hạm Gepard chống ngầm, đối hải</li><li>Tàu ngầm Kilo 'Hố đen đại dương'</li><li>Tên lửa diệt hạm Kalibr tầm bắn xa</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Tên Lửa Bờ Bastion</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Lá Chắn Ven Bờ</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tên lửa bờ siêu âm cơ động Bastion-P</li><li>Tổ hợp tên lửa bờ Redut-M nâng cấp</li><li>Khóa chặt đường biển tiếp cận xâm nhập</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Không Quân HQ & Đánh Bộ</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Đột Kích Đảo</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Trực thăng Ka-28 săn ngầm từ tàu hạm</li><li>Máy bay tuần thám biển DHC-6 Twin Otter</li><li>Hải quân đánh bộ đổ bộ chiếm lĩnh bãi biển</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">08</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 09: Lưới Lửa Bảo Vệ Bầu Trời Tổ Quốc
+           ==================================================================== -->
+      <section class="slide" id="slide-9" data-slide-index="9">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN III: QUÂN CHỦNG TIẾN THẲNG HIỆN ĐẠI</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Lưới Lửa Bảo Vệ Bầu Trời Tổ Quốc</span>
+            <h2 class="slide-title">QUÂN CHỦNG PHÒNG KHÔNG - KHÔNG QUÂN</h2>
+            <p class="slide-subtitle">Thế trận lưới lửa đa tầng nhiều tầng lớp phát hiện từ sớm, tiêu diệt từ xa các phương tiện bay đối phương</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Tiêm Kích Su-30MK2</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Chiến Đấu Tầm Xa</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tốc độ bay tối đa Mach 2.0 vượt trội</li><li>Mang 8 tấn vũ khí dẫn đường công nghệ cao</li><li>Tuần tra liên tục Trường Sa, nhà giàn DK1</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Tên Lửa S-300PMU1</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Lá Chắn Chiến Lược</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tầm đánh chặn hiệu quả cao 150 km</li><li>Đánh chặn tên lửa hành trình, đạn đạo</li><li>Chống nhiễu điện tử chủ động thông minh</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Pháo Phòng Không & Tên Lửa Tầm Trung</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Lưới Lửa Tầm Thấp</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tên lửa Spyder-SR/MR cơ động phản ứng nhanh</li><li>Pháo cao xạ tự động điều khiển ra-đa</li><li>Bảo vệ công sự, sân bay và kho tàng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Ra-đa Cảnh Giới 3D</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Mắt Thần Canh Trời</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Ra-đa 3D tầm quét hàng trăm kilomet</li><li>Phát hiện máy bay tàng hình, UAV tầm thấp</li><li>Truyền dữ liệu mục tiêu tức thời đến tên lửa</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-su30mk2.jpg" alt="Tiêm Kích Đa Năng Su-30MK2 Tuần Tiễu" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> HỔ MANG CHÚA
+                </div>
+                <h3 class="photo-overlay-title">Tiêm Kích Đa Năng Su-30MK2 Tuần Tiễu</h3>
+                <p class="photo-overlay-desc">Lực lượng Không quân tiêm kích cơ động tác chiến tầm xa bảo vệ toàn vẹn không phận quốc gia từ biên giới đất liền ra biển khơi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">09</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 10: Hỏa Lực Mặt Đất Chủ Yếu Của Quân Đội
+           ==================================================================== -->
+      <section class="slide" id="slide-10" data-slide-index="10">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG CHIẾN ĐẤU LỤC QUÂN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Hỏa Lực Mặt Đất Chủ Yếu Của Quân Đội</span>
+            <h2 class="slide-title">BINH CHỦNG PHÁO BINH - TÊN LỬA MẶT ĐẤT</h2>
+            <p class="slide-subtitle">Được Bác Hồ khen tặng: 'Chân đồng vai sắt, đánh giỏi, bắn trúng' — hỏa lực áp đảo trên chiến trường</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-phao-binh-bo-bien.jpg" alt="Bão Lửa Pháo Binh Chế Áp Chiến Trường" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> CHÂN ĐỒNG VAI SẮT
+                </div>
+                <h3 class="photo-overlay-title">Bão Lửa Pháo Binh Chế Áp Chiến Trường</h3>
+                <p class="photo-overlay-desc">Hỏa lực pháo binh và pháo phản lực dội bão lửa hủy diệt công sự, trận địa đối phương, dọn đường cho bộ binh hợp thành xung phong.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Pháo Tầm Xa 130mm</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Pháo Tầm Xa</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tầm bắn xa trên 27 km với đạn tăng tầm</li><li>Hỏa lực tập trung bẻ gãy mũi tiến công địch</li><li>Bắn chuẩn xác theo tọa độ trinh sát UAV</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Pháo Phản Lực BM-21</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Bão Lửa Diện Rộng</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>40 ống phóng rocket cỡ 122mm</li><li>Hủy diệt diện tích hàng nghìn mét vuông</li><li>Cơ động nhanh sau khi bắn để tránh phản pháo</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Tên Lửa Mặt Đất Scud</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Tên Lửa Mặt Đất</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tầm bắn hàng trăm km đánh sâu hậu phương</li><li>Độ chính xác cao, đầu đạn nổ phá mạnh</li><li>Lực lượng răn đe chiến lược mặt đất</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Số Hóa & Trinh Sát UAV</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Bắn Trúng Tức Thời</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Máy bay không người lái trinh sát tọa độ</li><li>Tính toán phần tử bắn bằng máy tính dã chiến</li><li>Rút ngắn thời gian ngắm bắn xuống dưới 1 phút</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">10</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 11: Lực Lượng Đột Kích Hỏa Lực Mạnh Nhất
+           ==================================================================== -->
+      <section class="slide" id="slide-11" data-slide-index="11">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG CHIẾN ĐẤU LỤC QUÂN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Lực Lượng Đột Kích Hỏa Lực Mạnh Nhất</span>
+            <h2 class="slide-title">BINH CHỦNG TĂNG THIẾT GIÁP: QUẢ ĐẤM THÉP</h2>
+            <p class="slide-subtitle">Truyền thống 'Đã ra quân là đánh thắng' — lực lượng thọc sâu, chia cắt và tiêu diệt các cụm quân địch</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Xe Tăng Chủ Lực T-90S/SK</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">T-90S Tối Tân</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Hệ thống phòng vệ Shtora gây nhiễu tên lửa địch</li><li>Pháo 125mm bắn chính xác cả ngày lẫn đêm</li><li>Động cơ công suất lớn vượt mọi địa hình lầy</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Xe Tăng Nâng Cấp T-54B/T-62</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Nâng Cấp Thông Minh</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Hệ thống điều khiển hỏa lực kỹ thuật số</li><li>Kính ngắm ảnh nhiệt nhìn đêm cự ly xa</li><li>Tăng cường khả năng sống còn trên chiến trường</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Xe Thiết Giáp BMP & BTR Cơ Động</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Bộ Binh Cơ Giới</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Khả năng bơi nước vượt sông ngòi linh hoạt</li><li>Hỏa lực pháo tự động 30mm chi viện bộ binh</li><li>Bảo vệ bộ binh khỏi mảnh đạn pháo và phóng xạ</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Nghệ Thuật Đột Kích Thần Tốc</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Đột Kích Thần Tốc</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Đánh bất ngờ vào sở chỉ huy đầu não đối phương</li><li>Cắt đứt đường rút lui và tiếp tế của địch</li><li>Kế thừa truyền thống xe tăng 390 Dinh Độc Lập</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-tang-thiet-giap.jpg" alt="Chiến Xa T-90S Tiến Công Thần Tốc" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> ĐÃ RA QUÂN LÀ ĐÁNH THẮNG
+                </div>
+                <h3 class="photo-overlay-title">Chiến Xa T-90S Tiến Công Thần Tốc</h3>
+                <p class="photo-overlay-desc">Xe tăng T-90S hiện đại với giáp phản ứng nổ và hệ thống phòng vệ chủ động dẫn đầu đội hình thọc sâu đánh chiếm các mục tiêu then chốt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">11</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 12: Lực Lượng Tác Chiến Đặc Biệt Tinh Nhuệ
+           ==================================================================== -->
+      <section class="slide" id="slide-12" data-slide-index="12">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG CHIẾN ĐẤU LỤC QUÂN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Lực Lượng Tác Chiến Đặc Biệt Tinh Nhuệ</span>
+            <h2 class="slide-title">BINH CHỦNG ĐẶC CÔNG: ĐẶC BIỆT TINH NHUỆ</h2>
+            <p class="slide-subtitle">Được Bác Hồ trao 16 chữ vàng: 'Đặc biệt tinh nhuệ, anh dũng tuyệt vời, mưu trí táo bạo, đánh hiểm thắng lớn'</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-cscd-dac-nhiem.jpg" alt="Chiến Sĩ Đặc Công Luồn Sâu Xuất Quỷ Nhập Thần" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> ĐÁNH HIỂM THẮNG LỚN
+                </div>
+                <h3 class="photo-overlay-title">Chiến Sĩ Đặc Công Luồn Sâu Xuất Quỷ Nhập Thần</h3>
+                <p class="photo-overlay-desc">Nghệ thuật ngụy trang hòa vào tự nhiên, luồn qua nhiều lớp hàng rào thép gai và bãi mìn để đánh trúng mục tiêu đầu não của đối phương.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Đặc Công Bộ & Rừng Sác</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Luồn Sâu Đánh Hiểm</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Bí mật tiếp cận không để lại dấu vết</li><li>Đánh nhanh rút lẹ bảo toàn lực lượng</li><li>Lấy chất lượng tinh nhuệ thắng số lượng đông</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Đặc Công Nước Đột Kích Biển</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Người Nhái Táo Bạo</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Lặn sâu ban đêm bí mật áp sát thân tàu</li><li>Sử dụng mìn nam châm định hướng uy lực</li><li>Khắc chế ưu thế hạm đội tàu bè lớn của đối phương</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Đặc Công Chống Khủng Bố</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Phản Ứng Tức Thì</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Bắn tỉa chính xác cự ly xa qua kính ngắm</li><li>Võ thuật cận chiến hạ gục mục tiêu chớp nhoáng</li><li>Trang bị súng tiểu liên hiện đại có giảm thanh</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Độc Đáo Nghệ Thuật Quân Sự</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Tinh Hoa Đại Việt</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Cách đánh bất đối xứng hiệu quả tuyệt đối</li><li>Gây nỗi khiếp sợ thường trực cho đối phương</li><li>Biến mục tiêu kiên cố nhất thành nơi hiểm nguy nhất</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">12</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 13: Bảo Đảm Cơ Động & Xây Dựng Công Trình Quốc Phòng
+           ==================================================================== -->
+      <section class="slide" id="slide-13" data-slide-index="13">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG BẢO ĐẢM CHIẾN ĐẤU</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Bảo Đảm Cơ Động & Xây Dựng Công Trình Quốc Phòng</span>
+            <h2 class="slide-title">BINH CHỦNG CÔNG BINH: MỞ ĐƯỜNG THẮNG LỢI</h2>
+            <p class="slide-subtitle">Mở đường qua địa hình hiểm trở, bắc cầu phao vượt sông lớn và rà phá vật cản cho toàn quân tiến công</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Vượt Sông Bắc Cầu Phao PMP</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Cầu Phao Thần Tốc</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Cầu phao chịu tải trọng xe tăng T-90S 50 tấn</li><li>Vận hành bến phà dã chiến đưa quân vượt sông</li><li>Ngụy trang bến vượt tránh máy bay trinh sát địch</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Rà Phá Bom Mìn & Mở Cửa Mở</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Phá Vật Cản</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Phóng đạn dây thuốc nổ dọn hành lang bãi mìn</li><li>Vô hiệu hóa các loại mìn thông minh chống tăng</li><li>Giải quyết ô nhiễm bom mìn phục vụ dân sinh</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Thi Công Công Trình Chiến Đấu</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Công Sự Kiên Cố</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Hầm ngầm bê tông cốt thép kháng bom xuyên</li><li>Đường hầm xuyên núi che giấu máy bay, tàu hạm</li><li>Công sự dã chiến chịu được đạn pháo cỡ lớn</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Tham Gia Gìn Giữ Hòa Bình LHQ</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Sứ Mệnh Quốc Tế</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Nâng cao vị thế uy tín quốc tế của QĐNDVN</li><li>Giúp đỡ người dân bản địa châu Phi xây trường học</li><li>Tác chiến nhân đạo khẳng định hình ảnh bộ đội</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-server-room.jpg" alt="Bảo Đảm Giao Thông & Công Trình Ngầm" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> MỞ ĐƯỜNG THẮNG LỢI
+                </div>
+                <h3 class="photo-overlay-title">Bảo Đảm Giao Thông & Công Trình Ngầm</h3>
+                <p class="photo-overlay-desc">Công binh bảo đảm đường sá, cầu phao và hệ thống hầm hào boongke kiên cố chịu được bom đạn công nghệ cao của đối phương.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">13</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 14: Phòng Chống Vũ Khí Hủy Diệt Hàng Loạt (NBC)
+           ==================================================================== -->
+      <section class="slide" id="slide-14" data-slide-index="14">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG BẢO ĐẢM CHIẾN ĐẤU</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Phòng Chống Vũ Khí Hủy Diệt Hàng Loạt (NBC)</span>
+            <h2 class="slide-title">BINH CHỦNG HÓA HỌC: PHÒNG CHỐNG VŨ KHÍ HỦY DIỆT</h2>
+            <p class="slide-subtitle">Bảo vệ cán bộ, chiến sĩ và nhân dân trước hiểm họa vũ khí hạt nhân, sinh học, hóa học độc hại</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-ten-lua-phong-khong.jpg" alt="Khí Tài Đặc Chủng Tiêu Tẩy Độc Chiến Trường" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> PHÒNG CHỐNG VŨ KHÍ NBC
+                </div>
+                <h3 class="photo-overlay-title">Khí Tài Đặc Chủng Tiêu Tẩy Độc Chiến Trường</h3>
+                <p class="photo-overlay-desc">Lực lượng Hóa học trang bị các tổ hợp xe trinh sát, tẩy độc và màn khói công nghệ cao bảo đảm môi trường tác chiến an toàn.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Trinh Sát Phóng Xạ & Khí Độc</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Phát Hiện Tức Thời</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Cảm biến phát hiện tác nhân hóa học từ xa</li><li>Đo lường mức độ phóng xạ và vi khuẩn gây bệnh</li><li>Cắm biển cảnh báo và dẫn đường an toàn cho quân</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Tiêu Tẩy Độc & Khử Trùng ARS</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Làm Sạch Chiến Trường</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tiêu tẩy rửa sạch vũ khí trang bị bị nhiễm độc</li><li>Khử khuẩn diện rộng phòng chống dịch bệnh</li><li>Bảo vệ sinh mạng chiến sĩ duy trì sức chiến đấu</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Màn Khói Ngụy Trang Khí Tài</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Khói Ngụy Trang</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Che mắt vệ tinh và thiết bị nhìn đêm tầm nhiệt</li><li>Làm chệch hướng bom lượn và tên lửa dẫn đường</li><li>Tạo bất ngờ chiến thuật khi triển khai lực lượng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Ứng Phó Sự Cố Hóa Chất Môi Trường</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Cứu Hộ Dân Sinh</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Xử lý dứt điểm các điểm nóng ô nhiễm dioxin</li><li>Cứu nạn sự cố rò rỉ hóa chất tại các khu công nghiệp</li><li>Bảo vệ sức khỏe nhân dân thời bình</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">14</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 15: Mạch Máu Chỉ Huy Xuyên Suốt Toàn Quân
+           ==================================================================== -->
+      <section class="slide" id="slide-15" data-slide-index="15">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN IV: CÁC BINH CHỦNG BẢO ĐẢM CHIẾN ĐẤU</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Mạch Máu Chỉ Huy Xuyên Suốt Toàn Quân</span>
+            <h2 class="slide-title">THÔNG TIN LIÊN LẠC & BTL TÁC CHIẾN MẠNG 86</h2>
+            <p class="slide-subtitle">Kịp thời, chính xác, bí mật, an toàn — bảo đảm chỉ huy thông suốt từ Sở chỉ huy Bộ đến từng chiến hào</p>
+          </div>
+
+          <div class="slide-split-grid">
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Mạng Thông Tin Quân Sự Số Hóa</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Truyền Dẫn Số Hóa</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Cáp quang bọc thép kháng bom đạn chôn ngầm</li><li>Hệ thống tổng đài số bảo mật cấp quốc gia</li><li>Hội nghị truyền hình trực tuyến dã chiến</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Thông Tin Vệ Tinh VSAT Đảo Xa</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Vệ Tinh Toàn Năng</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Kết nối dữ liệu thời gian thực giữa biển và đất liền</li><li>Không bị chia cắt bởi bão gió thiên tai</li><li>Mã hóa dữ liệu cấp chiến lược tuyệt đối bí mật</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Chống Chế Áp Điện Tử Khốc Liệt</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Kháng Nhiễu Thông Minh</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Tự động đổi tần số hàng nghìn lần mỗi giây</li><li>Duy trì liên lạc chỉ huy ngay khi bị gây nhiễu</li><li>Kế thừa phương thức truyền tin liên lạc dự phòng</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Bộ Tư Lệnh 86 (Tác Chiến Mạng)</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Bảo Vệ Không Gian Số</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Giám sát phòng thủ mã độc SCADA và máy chủ BQP</li><li>Tác chiến chế áp điện tử và chiến tranh thông tin</li><li>Lực lượng tác chiến trên mặt trận thứ 5 của quân đội</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-cyber-command.jpg" alt="Trung Tâm Tác Chiến Thông Tin Mạng Hiện Đại" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> MẠCH MÁU CHỈ HUY
+                </div>
+                <h3 class="photo-overlay-title">Trung Tâm Tác Chiến Thông Tin Mạng Hiện Đại</h3>
+                <p class="photo-overlay-desc">Hệ thống truyền dẫn cáp quang quân sự kết hợp vệ tinh VSAT và lực lượng tác chiến không gian mạng bảo vệ chủ quyền số quốc gia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">15</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 16: Quy Chuẩn Hiệp Đồng Quân Binh Chủng Hợp Thành
+           ==================================================================== -->
+      <section class="slide" id="slide-16" data-slide-index="16">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN V: NGHỆ THUẬT HIỆP ĐỒNG TÁC CHIẾN</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="layers" style="width: 18px; height: 18px;"></i>Quy Chuẩn Hiệp Đồng Quân Binh Chủng Hợp Thành</span>
+            <h2 class="slide-title">BỐN NGUYÊN TẮC CỐT LÕI TRONG HIỆP ĐỒNG TÁC CHIẾN</h2>
+            <p class="slide-subtitle">Lấy hành động tác chiến của Binh chủng hợp thành làm trung tâm; phối hợp nhịp nhàng tạo quả đấm thép</p>
+          </div>
+
+          <div class="slide-split-grid reverse">
+            <!-- Visual Photo Card (Authentic slide_new style) -->
+            <div class="slide-photo-card">
+              <img src="assets/vn-hiep-dong-llvt.jpg" alt="Bắn Đạn Thật Hiệp Đồng Quân Binh Chủng" class="slide-photo-img" style="object-position: center 25%;">
+              <div class="slide-photo-overlay">
+                <div class="photo-overlay-badge">
+                  <i data-lucide="shield" style="width: 14px; height: 14px;"></i> QUẢ ĐẤM THÉP
+                </div>
+                <h3 class="photo-overlay-title">Bắn Đạn Thật Hiệp Đồng Quân Binh Chủng</h3>
+                <p class="photo-overlay-desc">Phối hợp chặt chẽ giữa Hải quân, Không quân, Tăng thiết giáp và Pháo binh tạo nên sức mạnh tổng hợp bất khả chiến bại trên thao trường.</p>
+              </div>
+            </div>
+            <!-- 4 Cards (2x2 Grid) -->
+            <div class="split-2x2-grid">
+              
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #DC2626; width: 20px; height: 20px; flex-shrink: 0;"></i>1. Lấy Binh Chủng Hợp Thành Làm Trung Tâm</h4>
+                  <span class="pillar-tag" style="background: #DC262622; color: #DC2626; font-weight: 800;">Nguyên Tắc Trung Tâm</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Bộ binh hợp thành giữ vai trò nòng cốt quyết định</li><li>Các binh chủng hỏa lực dọn đường chi viện tối đa</li><li>Đánh chiếm và giữ vững mục tiêu trên thực địa</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #0284C7; width: 20px; height: 20px; flex-shrink: 0;"></i>2. Thống Nhất Chỉ Huy</h4>
+                  <span class="pillar-tag" style="background: #0284C722; color: #0284C7; font-weight: 800;">Một Chỉ Huy Duy Nhất</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Thống nhất mệnh lệnh, ký hiệu và mật khẩu tác chiến</li><li>Tránh phân tán lực lượng hoặc giẫm chân nhau</li><li>Phản ứng linh hoạt theo diễn biến chiến trường</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #10B981; width: 20px; height: 20px; flex-shrink: 0;"></i>3. Tương Trợ Chi Viện</h4>
+                  <span class="pillar-tag" style="background: #10B98122; color: #10B981; font-weight: 800;">Đoàn Kết Chiến Đấu</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Không để đơn vị bạn bị cô lập trước hỏa lực địch</li><li>Chủ động chia sẻ tin tức trinh sát mục tiêu</li><li>Phối hợp khép kín vòng vây tiêu diệt đối phương</li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #F59E0B;">
+                <div class="split-grid-header">
+                  <h4><i data-lucide="check" style="color: #F59E0B; width: 20px; height: 20px; flex-shrink: 0;"></i>4. Kế Hoạch Tỉ Mỉ</h4>
+                  <span class="pillar-tag" style="background: #F59E0B22; color: #F59E0B; font-weight: 800;">Khớp Lệnh Chuẩn Xác</span>
+                </div>
+                <ul class="split-grid-bullets">
+                  <li>Quy định ranh giới hỏa lực tránh bắn nhầm quân mình</li><li>Dự kiến mọi tình huống phức tạp để có phương án</li><li>Hiệp đồng từ cấp chiến lược đến từng mũi xung kích</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">16</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 17: Ba Phương Pháp Tổ Chức Hiệp Đồng Tham Mưu
+           ==================================================================== -->
+      <section class="slide" id="slide-17" data-slide-index="17">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN V: QUY TRÌNH THAM MƯU THỰC HÀNH</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="compass" style="width: 18px; height: 18px;"></i>Ba Phương Pháp Tổ Chức Hiệp Đồng Tham Mưu</span>
+            <h2 class="slide-title">BA PHƯƠNG PHÁP TỔ CHỨC & DUY TRÌ HIỆP ĐỒNG</h2>
+            <p class="slide-subtitle">Người chỉ huy vận dụng linh hoạt trên sa bàn và thực địa để biến ý định tác chiến thành thắng lợi giòn giã</p>
+          </div>
+
+          <div style="display: flex; gap: 20px; height: calc(100% - 130px); margin-bottom: 20px;">
+            
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">1. Theo Mục Tiêu Tác Chiến</h4>
+                  <span style="background: #DC262622; color: #DC2626; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Phân Công Mục Tiêu</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Phân công cụ thể đơn vị nào tiêu diệt mục tiêu nào: Pháo binh chế áp trận địa hỏa lực địch; Không quân đánh phá sở chỉ huy; Xe tăng thọc sâu chọc thủng trận địa.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Xác định rõ tọa độ và thứ tự ưu tiên tiêu diệt</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Gắn trách nhiệm của từng chỉ huy quân binh chủng</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Đánh trúng yết hầu làm tan rã ý chí địch</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">2. Theo Không Gian Địa Bàn</h4>
+                  <span style="background: #0284C722; color: #0284C7; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Phân Khu Vực</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Phân định ranh giới tác chiến trên không, dưới biển, mặt đất và không gian mạng để phát huy tối đa hỏa lực mà không cản trở nhau.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Vạch rõ hành lang bay an toàn cho không quân chi viện</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Phân tuyến bắn an toàn giữa pháo binh và bộ binh</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Quy định khu vực cơ động tránh ùn tắc xe chiến đấu</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">3. Theo Thời Gian Từng Giai Đoạn</h4>
+                  <span style="background: #10B98122; color: #10B981; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Khớp Từng Giây Phút</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Khớp lệnh từng phút trên đồng hồ: Giờ N - Chuẩn bị hỏa lực; Giờ G - Bộ binh và xe tăng đồng loạt xung kích mở cửa mở; Giờ G+X - Đánh chiếm mục tiêu.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Đồng bộ thời gian chuẩn xác giữa toàn thể các cánh quân</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Điều chỉnh nhịp độ tấn công theo diễn biến thực tế</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Phối hợp khép kín không để khoảng trống thời gian</span></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">17</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 18: Kịch Bản Hiệp Đồng Trong Điều Kiện Khốc Liệt
+           ==================================================================== -->
+      <section class="slide" id="slide-18" data-slide-index="18">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">PHẦN V: XỬ LÝ SỰ CỐ CHIẾN TRƯỜNG PHỨC TẠP</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="compass" style="width: 18px; height: 18px;"></i>Kịch Bản Hiệp Đồng Trong Điều Kiện Khốc Liệt</span>
+            <h2 class="slide-title">HIỆP ĐỒNG TRONG CÁC TÌNH HUỐNG CHIẾN THUẬT PHỨC TẠP</h2>
+            <p class="slide-subtitle">Biện pháp xử lý khi mất thông tin liên lạc, bị tác chiến điện tử chế áp và tác chiến đổ bộ liên quân</p>
+          </div>
+
+          <div style="display: flex; gap: 20px; height: calc(100% - 130px); margin-bottom: 20px;">
+            
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">1. Mất Liên Lạc Do Chế Áp Điện Tử</h4>
+                  <span style="background: #DC262622; color: #DC2626; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Phương Án Dự Phòng</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Khi sóng vô tuyến bị gây nhiễu tê liệt, lập tức chuyển sang hệ thống dự phòng: đường truyền cáp quang độc lập, ám hiệu cờ, đèn tín hiệu và giao liên cơ động.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Áp dụng phương pháp hiệp đồng theo thời gian định sẵn</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Phát tín hiệu cờ lệnh, pháo sáng nhận diện quân mình</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Các mũi xung kích kiên quyết tiến công theo kế hoạch gốc</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">2. Đơn Vị Bạn Bị Địch Vu Hồi Cô Lập</h4>
+                  <span style="background: #0284C722; color: #0284C7; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Giải Vây Tương Trợ</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Chủ động điều chuyển trận địa pháo binh tập trung dội bão lửa che chắn sườn; Không quân chi viện ném bom chặn viện, mở đường thoát vây.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Không để đơn vị bạn đơn độc chiến đấu</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Điều động xe tăng dự bị phản kích giải tỏa áp lực</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Phối hợp trong - ngoài cùng đánh phá tan vòng vây</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">3. Tác Chiến Đổ Bộ Đảo & Vượt Sông Lớn</h4>
+                  <span style="background: #10B98122; color: #10B981; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Đa Miền Đột Phá</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Hải quân làm chủ vùng biển, Pháo binh bờ biển yểm trợ, Không quân khống chế bầu trời cho Công binh bắc cầu phao và đưa quân xung phong.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Phòng không bắn hạ mọi UAV và máy bay ném bom địch</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Công binh thả phao nhanh gọn dưới làn khói ngụy trang</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Lực lượng hợp thành chiếm lĩnh bàn đạp thần tốc</span></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">18</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 19: Ma Trận Kiến Thức Cốt Lõi Về QĐND Việt Nam
+           ==================================================================== -->
+      <section class="slide" id="slide-19" data-slide-index="19">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">TỔNG KẾT BÀI GIẢNG CHUYÊN ĐỀ</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-title-wrap">
+            <span class="slide-category"><i data-lucide="compass" style="width: 18px; height: 18px;"></i>Ma Trận Kiến Thức Cốt Lõi Về QĐND Việt Nam</span>
+            <h2 class="slide-title">TỔNG KẾT: BA TRỤ CỘT SỨC MẠNH QUÂN ĐỘI NHÂN DÂN</h2>
+            <p class="slide-subtitle">Khái quát toàn diện học phần Giáo dục Quốc phòng & An ninh — nền tảng nhận thức cho sinh viên</p>
+          </div>
+
+          <div style="display: flex; gap: 20px; height: calc(100% - 130px); margin-bottom: 20px;">
+            
+              <div class="split-grid-card" style="border-top: 5px solid #DC2626; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">1. Thể Chế Tinh Gọn Hiện Đại</h4>
+                  <span style="background: #DC262622; color: #DC2626; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Thể Chế Vững Vàng</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Xây dựng Quân đội nhân dân Việt Nam cách mạng, chính quy, tinh nhuệ, tiến thẳng lên hiện đại theo tinh thần Nghị quyết Đại hội Đảng.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Bộ máy tinh, gọn, mạnh, cơ động linh hoạt</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Giải thể cấp huyện, củng cố vững chắc cơ sở</span></li><li><i data-lucide="check-circle" style="color: #DC2626; width: 18px; height: 18px; flex-shrink:0;"></i><span>Đảng lãnh đạo tuyệt đối, trực tiếp về mọi mặt</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #0284C7; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">2. Làm Chủ Vũ Khí Khí Tài Cao</h4>
+                  <span style="background: #0284C722; color: #0284C7; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Vũ Khí Tối Tân</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Kết hợp tinh thần quật cường của con người Việt Nam với các loại vũ khí trang bị kỹ thuật công nghệ cao, tự chủ nền công nghiệp quốc phòng.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Làm chủ tàu ngầm Kilo, tiêm kích Su-30, tên lửa S-300</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Chế tạo các tổ hợp ra-đa, UAV và khí tài thông minh</span></li><li><i data-lucide="check-circle" style="color: #0284C7; width: 18px; height: 18px; flex-shrink:0;"></i><span>Bảo vệ Tổ quốc từ sớm, từ xa, không để bị bất ngờ</span></li>
+                </ul>
+              </div>
+              <div class="split-grid-card" style="border-top: 5px solid #10B981; padding: 18px 22px; flex: 1; background: #FFF; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 25, 60, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <h4 style="font-size: 22px; font-weight: 800; color: var(--color-secondary);">3. Nghệ Thuật Hiệp Đồng Đỉnh Cao</h4>
+                  <span style="background: #10B98122; color: #10B981; font-size: 14px; font-weight: 800; padding: 4px 10px; border-radius: 999px;">Hiệp Đồng Thắng Lợi</span>
+                </div>
+                <p style="font-size: 20px; line-height: 1.4; color: #475569; margin-bottom: 12px; font-weight: 500;">Kế thừa nghệ thuật quân sự truyền thống dân tộc, phát triển nghệ thuật tác chiến hiệp đồng quân binh chủng trên không gian đa miền hiện đại.</p>
+                <ul class="split-grid-bullets" style="font-size: 19px; line-height: 1.45; gap: 8px;">
+                  <li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Lấy Binh chủng hợp thành làm trung tâm tác chiến</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Hiệp đồng nhịp nhàng giữa 3 thứ quân bền chặt</span></li><li><i data-lucide="check-circle" style="color: #10B981; width: 18px; height: 18px; flex-shrink:0;"></i><span>Tạo thành quả đấm thép bất khả chiến bại</span></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">19</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- ====================================================================
+           SLIDE 20: HỌC ĐỂ THAY ĐỔI • PHỤNG SỰ TỔ QUỐC
+           ==================================================================== -->
+      <section class="slide" id="slide-20" data-slide-index="20">
+        <header class="slide-header">
+          <div class="header-left">
+            <div class="brand-slogan">HỌC ĐỂ THAY ĐỔI</div>
+            <div class="header-topic-badge">LỜI KẾT & CAM KẾT HÀNH ĐỘNG</div>
+          </div>
+          <div class="header-right">
+            <img src="assets/dai-nam-logo-ngang.svg" alt="Trường Đại học Đại Nam" class="official-logo-img">
+          </div>
+        </header>
+        <div class="slide-body">
+          <div class="slide-10-wrap" style="height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 10px;">
+            <div class="slide-title-wrap" style="margin-bottom: 16px;">
+              <span class="slide-category"><i data-lucide="flag" style="width: 18px; height: 18px;"></i>HỌC ĐỂ THAY ĐỔI • PHỤNG SỰ TỔ QUỐC</span>
+              <h2 class="slide-title">TRÁCH NHIỆM TUỔI TRẺ ĐẠI HỌC ĐẠI NAM TRONG KỶ NGUYÊN MỚI</h2>
+              <p class="slide-subtitle">Vận dụng tinh thần quyết chiến quyết thắng vào học tập, làm chủ công nghệ và bảo vệ chủ quyền số quốc gia</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 28px; align-items: center; flex: 1;">
+              <div style="border-radius: 18px; overflow: hidden; height: 380px; box-shadow: 0 20px 50px rgba(0, 34, 68, 0.22); border: 3px solid rgba(234, 88, 12, 0.35);">
+                <img src="assets/vn-dainam-it-students-2.jpg" alt="Sinh viên Đại học Đại Nam" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+              </div>
+
+              <div class="definition-box" style="padding: 28px 32px; height: 380px; display: flex; flex-direction: column; justify-content: center;">
+                <div class="def-badge" style="font-size: 20px; padding: 8px 22px; margin-bottom: 16px;">
+                  <i data-lucide="award" style="width: 22px; height: 22px;"></i>
+                  Sứ Mạng Sinh Viên Đại Nam Trong Kỷ Nguyên Vươn Mình
+                </div>
+                <p class="def-quote-text" style="font-size: 26px; line-height: 1.48;">
+                  "Nước Việt Nam là một, dân tộc Việt Nam là một. Sông có thể cạn, núi có thể mòn, song chân lý ấy không bao giờ thay đổi." — Mỗi sinh viên Đại học Đại Nam là một chiến sĩ kiên trung trên mặt trận học tập, sáng tạo và bảo vệ chủ quyền thiêng liêng của Tổ quốc.
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 20px; margin-top: 16px;">
+              
+              <div class="closing-card" style="border-top: 5px solid #DC2626; padding: 20px 24px; background: #FFF; border-radius: 14px; box-shadow: 0 8px 24px rgba(0, 25, 60, 0.08); flex: 1;">
+                <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary); margin-bottom: 8px;">1. Rèn Đức Luyện Tài</h4>
+                <p style="font-size: 20px; line-height: 1.45; color: #475569;">Học tập xuất sắc, làm chủ công nghệ thông tin và khoa học kỹ thuật hiện đại để xây dựng đất nước phồn vinh.</p>
+              </div>
+              <div class="closing-card" style="border-top: 5px solid #0284C7; padding: 20px 24px; background: #FFF; border-radius: 14px; box-shadow: 0 8px 24px rgba(0, 25, 60, 0.08); flex: 1;">
+                <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary); margin-bottom: 8px;">2. Cảnh Giác Cách Mạng</h4>
+                <p style="font-size: 20px; line-height: 1.45; color: #475569;">Nâng cao ý thức quốc phòng, kiên quyết đấu tranh phản bác các quan điểm sai trái và thông tin độc hại trên mạng.</p>
+              </div>
+              <div class="closing-card" style="border-top: 5px solid #10B981; padding: 20px 24px; background: #FFF; border-radius: 14px; box-shadow: 0 8px 24px rgba(0, 25, 60, 0.08); flex: 1;">
+                <h4 style="font-size: 24px; font-weight: 800; color: var(--color-secondary); margin-bottom: 8px;">3. Bảo Vệ Chủ Quyền Số</h4>
+                <p style="font-size: 20px; line-height: 1.45; color: #475569;">Ứng dụng kiến thức an toàn thông tin xây dựng không gian mạng Việt Nam an toàn, lành mạnh, vững chắc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="slide-footer">
+          <div class="footer-left">
+            <div class="footer-timer-display">
+              <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+              <span class="timer-text">00:00</span>
+            </div>
+            <a href="https://dainam.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-dnu-link">
+              <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+              dainam.edu.vn
+            </a>
+            <span class="footer-cohort-tag" style="color: rgba(255, 255, 255, 0.75); font-weight: 600; font-size: 15px; margin-left: 12px;">• Tiểu đội 1 | Trung đội 1 | Đại đội 6</span>
+          </div>
+          <div class="footer-center"></div>
+          <div class="footer-right">
+            <div class="slide-counter"><span class="current-num">20</span> / 20</div>
+          </div>
+        </footer>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       HUD FLOATING CONTROLS
+       ==================================================================== -->
+  <div id="hud-controls">
+    <button class="hud-btn" id="btn-prev" title="Trang trước (← / PageUp)" onclick="prevSlide()">
+      <i data-lucide="chevron-left" style="width: 20px; height: 20px;"></i>
+    </button>
+
+    <select class="hud-slide-select" id="hud-slide-select" onchange="goToSlide(parseInt(this.value))">
+      <option value="1">01. CHUYÊN ĐỀ QUÂN SỰ ĐẶC BIỆT</option>
+      <option value="2">02. Khung Chương Trình Nghiên Cứu Chuẩn Hó</option>
+      <option value="3">03. Cội nguồn bản lĩnh quân sự Đại Việt</option>
+      <option value="4">04. 80 Năm Xây Dựng, Chiến Đấu & Trưởng Th</option>
+      <option value="5">05. Ba Chức Năng Bất Khả Phân Ly Của QĐND</option>
+      <option value="6">06. Cơ Quan Chỉ Huy Tối Cao Toàn Quân</option>
+      <option value="7">07. Cải Cách Tổ Chức 2025 Theo Thông Tư 83</option>
+      <option value="8">08. Lực Lượng Nòng Cốt Bảo Vệ Biển Đảo</option>
+      <option value="9">09. Lưới Lửa Bảo Vệ Bầu Trời Tổ Quốc</option>
+      <option value="10">10. Hỏa Lực Mặt Đất Chủ Yếu Của Quân Đội</option>
+      <option value="11">11. Lực Lượng Đột Kích Hỏa Lực Mạnh Nhất</option>
+      <option value="12">12. Lực Lượng Tác Chiến Đặc Biệt Tinh Nhuệ</option>
+      <option value="13">13. Bảo Đảm Cơ Động & Xây Dựng Công Trình </option>
+      <option value="14">14. Phòng Chống Vũ Khí Hủy Diệt Hàng Loạt </option>
+      <option value="15">15. Mạch Máu Chỉ Huy Xuyên Suốt Toàn Quân</option>
+      <option value="16">16. Quy Chuẩn Hiệp Đồng Quân Binh Chủng Hợ</option>
+      <option value="17">17. Ba Phương Pháp Tổ Chức Hiệp Đồng Tham </option>
+      <option value="18">18. Kịch Bản Hiệp Đồng Trong Điều Kiện Khố</option>
+      <option value="19">19. Ma Trận Kiến Thức Cốt Lõi Về QĐND Việt</option>
+      <option value="20">20. HỌC ĐỂ THAY ĐỔI • PHỤNG SỰ TỔ QUỐC</option>
+    </select>
+
+    <button class="hud-btn" id="btn-next" title="Trang kế (→ / Space)" onclick="nextSlide()">
+      <i data-lucide="chevron-right" style="width: 20px; height: 20px;"></i>
+    </button>
+
+    <div class="hud-divider"></div>
+
+    <div class="hud-timer-badge">
+      <i data-lucide="timer" style="width: 16px; height: 16px;"></i>
+      <span id="hud-timer-display">00:00</span>
+    </div>
+    <button class="hud-btn" id="btn-timer-toggle" title="Tạm dừng / Tiếp tục đếm giờ" onclick="toggleTimer()">
+      <i data-lucide="play" id="icon-timer-state" style="width: 17px; height: 17px;"></i>
+    </button>
+    <button class="hud-btn" id="btn-timer-reset" title="Đặt lại bộ đếm giờ" onclick="resetTimer()">
+      <i data-lucide="rotate-ccw" style="width: 17px; height: 17px;"></i>
+    </button>
+
+    <div class="hud-divider"></div>
+
+    <button class="hud-btn" id="btn-fullscreen" title="Toàn màn hình (F)" onclick="toggleFullscreen()">
+      <i data-lucide="maximize" id="icon-fullscreen" style="width: 18px; height: 18px;"></i>
+    </button>
+
+    <button class="hud-btn" id="btn-focus-mode" title="Ẩn/Hiện thanh điều khiển (H)" onclick="toggleHUD()">
+      <i data-lucide="eye" style="width: 18px; height: 18px;"></i>
+    </button>
+
+    <button class="hud-btn text-btn" id="btn-export-pdf" title="Xuất toàn bộ 20 Slide thành file PDF (Canvas 2K)" onclick="exportToPDF2K()">
+      <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+      <span>Xuất PDF</span>
+    </button>
+
+    <button class="hud-btn primary text-btn" id="btn-export-pptx" title="Xuất toàn bộ 20 Slide thành file PowerPoint (Canvas 2K)" onclick="exportToPPTX2K()">
+      <i data-lucide="presentation" style="width: 16px; height: 16px;"></i>
+      <span>Xuất PPTX</span>
+    </button>
+
+    <button class="hud-btn" title="Phím tắt trợ giúp (?)" onclick="toggleHelpModal(true)">
+      <i data-lucide="help-circle" style="width: 18px; height: 18px;"></i>
+    </button>
+  </div>
+
+  <!-- Keyboard Shortcuts Modal -->
+  <div class="modal-overlay" id="help-modal" onclick="if(event.target===this) toggleHelpModal(false)">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i data-lucide="keyboard" style="color: var(--color-primary); width: 26px; height: 26px;"></i>
+          <span>Phím Tắt Điều Khiển Thuyết Trình</span>
+        </div>
+        <button class="modal-close-btn" onclick="toggleHelpModal(false)">
+          <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+        </button>
+      </div>
+      <div>
+        <div class="shortcut-row">
+          <span>Chuyển sang trang tiếp theo</span>
+          <span class="shortcut-key">Phím → / Phím Cách (Space) / PageDown</span>
+        </div>
+        <div class="shortcut-row">
+          <span>Quay lại trang trước</span>
+          <span class="shortcut-key">Phím ← / PageUp</span>
+        </div>
+        <div class="shortcut-row">
+          <span>Về trang đầu / Trang cuối</span>
+          <span class="shortcut-key">Home / End</span>
+        </div>
+        <div class="shortcut-row">
+          <span>Bật/Tắt Toàn màn hình</span>
+          <span class="shortcut-key">Phím F</span>
+        </div>
+        <div class="shortcut-row">
+          <span>Bật/Tắt Chế độ tập trung (Ẩn/Hiện HUD)</span>
+          <span class="shortcut-key">Phím H</span>
+        </div>
+        <div class="shortcut-row">
+          <span>Đóng cửa sổ trợ giúp</span>
+          <span class="shortcut-key">Phím Esc</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Export Progress Modal (Canvas 2K Packaging) -->
+  <div class="export-modal-overlay" id="export-progress-modal">
+    <div class="export-modal-card">
+      <div class="export-modal-header">
+        <div class="export-spinner-ring"></div>
+        <div>
+          <h3 id="export-modal-title">Đang Xuất Bản Trình Chiếu 2K</h3>
+          <p id="export-modal-desc">Đang chụp từng slide ở độ phân giải Canvas 2K siêu nét...</p>
+        </div>
+      </div>
+      <div class="export-bar-wrap">
+        <div class="export-bar-fill" id="export-modal-bar" style="width: 0%;"></div>
+      </div>
+      <div class="export-modal-status">
+        <span id="export-modal-step">Đang chuẩn bị dữ liệu...</span>
+        <span id="export-modal-percent">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Presentation Script Engine -->
+  <script>
+    const PresentationState = {
+      currentSlide: 1,
+      totalSlides: 20,
+      isFullscreen: false,
+      isHudVisible: true,
+      timerSeconds: 0,
+      isTimerRunning: false,
+      timerInterval: null
+    };
+
+    function updateStageScale() {
+      const stage = document.getElementById('slide-stage');
+      if (!stage || document.body.classList.contains('exporting-2k')) return;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const scale = Math.min(vw / 1920, vh / 1080);
+      stage.style.transform = `translate(-50%, -50%) scale(${scale})`;
+    }
+
+    window.addEventListener('resize', updateStageScale);
+
+    function goToSlide(slideNum) {
+      if (slideNum < 1 || slideNum > PresentationState.totalSlides) return;
+      PresentationState.currentSlide = slideNum;
+      document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+      const activeSlide = document.getElementById(`slide-${slideNum}`);
+      if (activeSlide) activeSlide.classList.add('active');
+
+      const progressBar = document.getElementById('top-progress-bar');
+      if (progressBar) {
+        progressBar.style.width = `${(slideNum / PresentationState.totalSlides) * 100}%`;
+      }
+
+      const hudSelect = document.getElementById('hud-slide-select');
+      if (hudSelect) hudSelect.value = slideNum;
+
+      if (slideNum > 1 && !PresentationState.isTimerRunning && PresentationState.timerSeconds === 0) {
+        startTimer();
+      }
+
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function nextSlide() {
+      if (PresentationState.currentSlide < PresentationState.totalSlides) {
+        goToSlide(PresentationState.currentSlide + 1);
+      } else {
+        showToast("Đã đến slide cuối cùng!");
+      }
+    }
+
+    function prevSlide() {
+      if (PresentationState.currentSlide > 1) {
+        goToSlide(PresentationState.currentSlide - 1);
+      } else {
+        showToast("Đang ở slide đầu tiên!");
+      }
+    }
+
+    function formatTime(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    function updateTimerDisplays() {
+      const timeStr = formatTime(PresentationState.timerSeconds);
+      const hudDisplay = document.getElementById('hud-timer-display');
+      if (hudDisplay) hudDisplay.textContent = timeStr;
+      document.querySelectorAll('.timer-text').forEach(el => {
+        el.textContent = timeStr;
+      });
+    }
+
+    function startTimer() {
+      if (PresentationState.isTimerRunning) return;
+      PresentationState.isTimerRunning = true;
+      PresentationState.timerInterval = setInterval(() => {
+        PresentationState.timerSeconds++;
+        updateTimerDisplays();
+      }, 1000);
+
+      const icon = document.getElementById('icon-timer-state');
+      if (icon) {
+        icon.setAttribute('data-lucide', 'pause');
+        if (window.lucide) window.lucide.createIcons();
+      }
+    }
+
+    function pauseTimer() {
+      if (!PresentationState.isTimerRunning) return;
+      PresentationState.isTimerRunning = false;
+      clearInterval(PresentationState.timerInterval);
+      const icon = document.getElementById('icon-timer-state');
+      if (icon) {
+        icon.setAttribute('data-lucide', 'play');
+        if (window.lucide) window.lucide.createIcons();
+      }
+    }
+
+    function toggleTimer() {
+      if (PresentationState.isTimerRunning) {
+        pauseTimer();
+        showToast("Đã tạm dừng bộ đếm giờ.");
+      } else {
+        startTimer();
+        showToast("Đang tiếp tục đếm giờ.");
+      }
+    }
+
+    function resetTimer() {
+      pauseTimer();
+      PresentationState.timerSeconds = 0;
+      updateTimerDisplays();
+      showToast("Đã đặt lại bộ đếm giờ.");
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => console.warn(err));
+      } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+      }
+    }
+
+    function toggleHUD() {
+      const hud = document.getElementById('hud-controls');
+      if (!hud) return;
+      PresentationState.isHudVisible = !PresentationState.isHudVisible;
+      if (PresentationState.isHudVisible) {
+        hud.classList.remove('hidden', 'hidden-hud');
+        showToast("Đã hiện thanh điều khiển.");
+      } else {
+        hud.classList.add('hidden', 'hidden-hud');
+        showToast("Chế độ Tập trung: Nhấn 'H' để hiện lại thanh điều khiển.");
+      }
+    }
+
+    function toggleHelpModal(show) {
+      const modal = document.getElementById('help-modal');
+      if (!modal) return;
+      if (show) {
+        modal.classList.add('open');
+        modal.style.opacity = '1';
+        modal.style.visibility = 'visible';
+        if (window.lucide) window.lucide.createIcons();
+      } else {
+        modal.classList.remove('open');
+        modal.style.opacity = '0';
+        modal.style.visibility = 'hidden';
+      }
+    }
+
+    let toastTimeout = null;
+    function showToast(message) {
+      const toast = document.getElementById('toast-notification');
+      const msg = document.getElementById('toast-msg');
+      if (!toast || !msg) return;
+      msg.textContent = message;
+      toast.classList.add('show');
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    function showExportProgress(title, desc) {
+      const modal = document.getElementById('export-progress-modal');
+      const titleEl = document.getElementById('export-modal-title');
+      const descEl = document.getElementById('export-modal-desc');
+      if (titleEl && title) titleEl.textContent = title;
+      if (descEl && desc) descEl.textContent = desc;
+      if (modal) modal.classList.add('active');
+    }
+
+    function updateExportProgress(current, total, statusText) {
+      const bar = document.getElementById('export-modal-bar');
+      const step = document.getElementById('export-modal-step');
+      const percent = document.getElementById('export-modal-percent');
+      const pct = Math.round((current / total) * 100);
+      if (bar) bar.style.width = `${pct}%`;
+      if (percent) percent.textContent = `${pct}%`;
+      if (step && statusText) step.textContent = statusText;
+    }
+
+    function hideExportProgress() {
+      const modal = document.getElementById('export-progress-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    function fixSlideImagesForExport(clonedSlide, targetSlide) {
+      if (!clonedSlide || !targetSlide) return;
+      const originalImages = targetSlide.querySelectorAll('img');
+      const clonedImages = clonedSlide.querySelectorAll('img');
+      for (let i = 0; i < originalImages.length; i++) {
+        const origImg = originalImages[i];
+        const cloneImg = clonedImages[i];
+        if (!origImg || !cloneImg) continue;
+        if (origImg.classList.contains('official-logo-img')) continue;
+        const nw = origImg.naturalWidth;
+        const nh = origImg.naturalHeight;
+        if (!nw || !nh) continue;
+        const rect = origImg.getBoundingClientRect();
+        const rw = rect.width;
+        const rh = rect.height;
+        if (rw <= 0 || rh <= 0) continue;
+        const targetAspect = rw / rh;
+        const naturalAspect = nw / nh;
+        let sx, sy, sw, sh;
+        if (naturalAspect > targetAspect) {
+          sh = nh;
+          sw = nh * targetAspect;
+          sx = (nw - sw) / 2;
+          sy = 0;
+        } else {
+          sw = nw;
+          sh = nw / targetAspect;
+          sx = 0;
+          sy = (nh - sh) * 0.25;
+        }
+        try {
+          const offscreenCanvas = document.createElement('canvas');
+          offscreenCanvas.width = 2560;
+          offscreenCanvas.height = Math.round(2560 / targetAspect);
+          const ctx = offscreenCanvas.getContext('2d');
+          if (ctx) {
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = 'high';
+            ctx.drawImage(origImg, sx, sy, sw, sh, 0, 0, offscreenCanvas.width, offscreenCanvas.height);
+            cloneImg.src = offscreenCanvas.toDataURL('image/jpeg', 0.95);
+            cloneImg.style.objectFit = 'fill';
+          }
+        } catch(e) {
+          console.warn('Image crop error:', e);
+        }
+      }
+    }
+
+    async function captureAllSlides2K(onProgress) {
+      const total = PresentationState.totalSlides;
+      const savedSlide = PresentationState.currentSlide;
+      document.body.classList.add('exporting-2k');
+      const capturedImages = [];
+
+      try {
+        for (let i = 1; i <= total; i++) {
+          goToSlide(i);
+          if (onProgress) onProgress(i, total + 1, `Đang xử lý & chụp Slide ${i}/${total} ở độ phân giải 2K...`);
+          await new Promise(r => setTimeout(r, 220));
+          const slideEl = document.getElementById(`slide-${i}`);
+          if (!slideEl) continue;
+
+          const canvas = await html2canvas(slideEl, {
+            scale: 2560 / 1920,
+            width: 1920,
+            height: 1080,
+            useCORS: true,
+            allowTaint: true,
+            logging: false,
+            backgroundColor: null,
+            imageTimeout: 15000,
+            onclone: (clonedDoc) => {
+              const clonedSlide = clonedDoc.getElementById(`slide-${i}`);
+              if (clonedSlide) {
+                clonedSlide.style.width = '1920px';
+                clonedSlide.style.height = '1080px';
+                clonedSlide.style.transform = 'none';
+                clonedSlide.style.position = 'relative';
+                fixSlideImagesForExport(clonedSlide, slideEl);
+              }
+            }
+          });
+          capturedImages.push(canvas.toDataURL('image/jpeg', 0.98));
+        }
+      } finally {
+        document.body.classList.remove('exporting-2k');
+        goToSlide(savedSlide);
+      }
+      return capturedImages;
+    }
+
+    async function exportToPPTX2K() {
+      try {
+        showExportProgress("Đang Kết Xuất Bản Trình Chiếu 2K (PowerPoint)", "Đang khởi tạo chụp 20 slide ở độ phân giải 2560x1440...");
+        const images = await captureAllSlides2K((cur, tot, text) => {
+          updateExportProgress(cur, tot, text);
+        });
+        if (!images || images.length === 0) throw new Error("Không thể chụp ảnh slide.");
+        updateExportProgress(20, 21, "Đang đóng gói file PowerPoint PPTX...");
+        const pptx = new PptxGenJS();
+        pptx.layout = 'LAYOUT_16x9';
+        images.forEach((imgData, idx) => {
+          const s = pptx.addSlide();
+          s.addImage({ data: imgData, x: 0, y: 0, w: '100%', h: '100%' });
+        });
+        await pptx.writeFile({ fileName: "Bo_Slide_01_GDQP_DaiNam_2K.pptx" });
+        hideExportProgress();
+        showToast("Đã xuất file PowerPoint 2K thành công!");
+      } catch(err) {
+        console.error(err);
+        hideExportProgress();
+        showToast("Lỗi xuất PowerPoint: " + err.message);
+      }
+    }
+
+    async function exportToPDF2K() {
+      try {
+        showExportProgress("Đang Kết Xuất File PDF 2K Siêu Nét", "Đang chụp 20 slide ở độ phân giải 2560x1440...");
+        const images = await captureAllSlides2K((cur, tot, text) => {
+          updateExportProgress(cur, tot, text);
+        });
+        if (!images || images.length === 0) throw new Error("Không thể chụp ảnh slide.");
+        updateExportProgress(20, 21, "Đang đóng gói tài liệu PDF...");
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [2560, 1440] });
+        images.forEach((imgData, idx) => {
+          if (idx > 0) pdf.addPage([2560, 1440], 'landscape');
+          pdf.addImage(imgData, 'JPEG', 0, 0, 2560, 1440);
+        });
+        pdf.save("Bo_Slide_01_GDQP_DaiNam_2K.pdf");
+        hideExportProgress();
+        showToast("Đã xuất file PDF 2K thành công!");
+      } catch(err) {
+        console.error(err);
+        hideExportProgress();
+        showToast("Lỗi xuất PDF: " + err.message);
+      }
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+      switch (e.key) {
+        case 'ArrowRight':
+        case ' ':
+        case 'PageDown':
+          e.preventDefault();
+          nextSlide();
+          break;
+        case 'ArrowLeft':
+        case 'PageUp':
+          e.preventDefault();
+          prevSlide();
+          break;
+        case 'Home':
+          e.preventDefault();
+          goToSlide(1);
+          break;
+        case 'End':
+          e.preventDefault();
+          goToSlide(PresentationState.totalSlides);
+          break;
+        case 'f':
+        case 'F':
+          e.preventDefault();
+          toggleFullscreen();
+          break;
+        case 'h':
+        case 'H':
+          e.preventDefault();
+          toggleHUD();
+          break;
+        case '?':
+          toggleHelpModal(true);
+          break;
+        case 'Escape':
+          toggleHelpModal(false);
+          break;
+      }
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      updateStageScale();
+      goToSlide(1);
+      if (window.lucide) window.lucide.createIcons();
+      startTimer();
+    });
+    window.addEventListener('load', updateStageScale);
+  </script>
+</body>
+</html>
