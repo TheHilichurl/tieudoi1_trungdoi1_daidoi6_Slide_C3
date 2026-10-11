@@ -3751,11 +3751,12 @@ body.exporting-2k .slide-timer-badge {
   max-height: 100% !important;
 }
 
-/* Slide 3 exact fit guard */
-#slide-3 .definition-box p { font-size: 26px !important; line-height: 1.4 !important; margin: 8px 0 !important; }
-#slide-3 .definition-box h3 { margin-bottom: 6px !important; }
-#slide-3 .def-summary-pill { padding: 10px 16px !important; font-size: 20px !important; }
-#slide-3 .characteristics-stack { gap: 10px !important; }
-#slide-3 .char-card { padding: 10px 16px !important; gap: 4px !important; }
-#slide-3 .char-card p { font-size: 22px !important; line-height: 1.35 !important; }
+/* Slide 3 typography boost: larger fonts, zero layout modification */
+#slide-3 .def-quote-text { font-size: 31px !important; line-height: 1.42 !important; }
+#slide-3 .def-img-caption h5 { font-size: 34px !important; }
+#slide-3 .def-img-caption p { font-size: 26.5px !important; line-height: 1.45 !important; }
+#slide-3 .def-summary-pill { font-size: 24px !important; padding: 12px 20px !important; }
+#slide-3 .def-summary-pill span { font-size: 24px !important; line-height: 1.35 !important; }
+#slide-3 .char-card h4 { font-size: 31px !important; line-height: 1.25 !important; }
+#slide-3 .char-card p { font-size: 26px !important; line-height: 1.42 !important; color: #334155 !important; }
 
