@@ -2825,7 +2825,7 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 25px;
+  font-size: 27px;
   color: #334155;
   line-height: 1.38;
 }
@@ -2857,7 +2857,7 @@ html, body {
 
 /* SLIDE 3 FONT BOOST */
 #slide-3 .split-grid-header h4 {
-  font-size: 29px;
+  font-size: 27px;
 }
 #slide-3 .pillar-tag {
   font-size: 17px;
